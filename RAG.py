@@ -77,7 +77,7 @@ if __name__ == "__main__":
 
         print(f"\nAssistant: {answer}\n")
         if sources:
-            print("Источники:")
+            print("sources:")
             for doc in sources:
                 print(f"- {doc.metadata.get('source', 'unknown')}")
             print()
